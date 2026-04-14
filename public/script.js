@@ -9,7 +9,7 @@ function loginError() {
     }
 }
 
-loginForm.addEventListener(onsubmit, function(event){
+loginForm.addEventListener('submit', function(event){
 
     event.preventDefault();
 
